@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+aside{
+    height: 100%;
+    width: 350px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;    
+}
+
+.searchCity{
+    display: flex;
+    flex-direction: column;  
+    border-bottom: solid; 
+}
+
+.searchCity > *{
+    margin: 10px 0;
+}
+
+textarea{
+    resize: none;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: center;
+}
+
+.searchCity button{
+    border: none;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.recent{
+    display: flex;
+    flex-direction: column;    
+}
+
+.recent > *{
+    margin: 10px 0;
+}
+
+.recent button{
+    border: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    height: 40px;
+}
+
+main{
+    margin-left: 350px;
+    width: auto;    
+}
+
+.todayCard{
+    text-align: left;
+    justify-content: center;
+    border: solid;
+    margin: 20px;
+    padding: 8px;
+}
+
+.fiveDayHead{
+    margin-left: 20px;
+}
+
+.fiveDay{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fiveDayCard{
+    background-color: rgb(80, 83, 95);
+    width: 200px;
+    color: whitesmoke;
+    padding: 8px;
+    border-radius: 15px;
+}
